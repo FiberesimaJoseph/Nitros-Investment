@@ -63,6 +63,7 @@ const Review = () => {
                 flexDirection: "column",
                 width: "25rem",
               }}
+              key={i}
             >
               <img
                 src={t.authorAvatar}

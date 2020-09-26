@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Features from "../components/Features";
-import Process from "../components/Process";
-import Fact from "../components/Fact";
-import Team from "../components/Team";
-import Review from "../components/Review";
-import Footer from "../components/Footer";
+import Hero from "./Hero";
+import About from "./About";
+import Features from "./Features";
+import Process from "./Process";
+import Fact from "./Fact";
+import Team from "./Team";
+import Review from "./Review";
+import Footer from "./Footer";
 import { Modal, Button } from "semantic-ui-react";
 const Homepage: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);

@@ -1,8 +1,10 @@
 import React from "react";
 import { Container } from "semantic-ui-react";
 import Member from "./Member";
+// import mem from ;
 
 const Team = () => {
+  // console.log(mem);
   const members = [
     {
       name: "Tom Binegar",
@@ -66,7 +68,7 @@ const Team = () => {
       <Container>
         <div className="team-members clearfix">
           {members.map((member, i) => (
-            <Member {...member} />
+            <Member key={i} {...member} />
           ))}
         </div>
       </Container>

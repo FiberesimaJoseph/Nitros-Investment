@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Button } from "semantic-ui-react";
+import { Menu } from "semantic-ui-react";
 
 const Header = () => {
   return (
@@ -26,18 +26,14 @@ const Header = () => {
             // active={activeItem === 'logout'}
             // onClick={this.handleItemClick}
           />
-          <Menu.Item>
-            <Button
-              href="login.html"
-              style={{
-                backgroundColor: "unset",
-                fontSize: "1.5rem",
-                color: "white",
-              }}
-            >
-              Login
-            </Button>
-          </Menu.Item>
+          <Menu.Item
+            name="login"
+            style={{
+              backgroundColor: "unset",
+              fontSize: "1.5rem",
+              color: "white",
+            }}
+          />
         </Menu.Menu>
       </Menu>
     </header>
