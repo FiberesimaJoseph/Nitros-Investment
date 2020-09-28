@@ -8,10 +8,6 @@ const Process = () => {
         {" "}
         <div className="section-title text-center">
           <h2>Get Started And Begin To Earn</h2>
-          <p>
-            Start learning about Bitcoin with interactive tutorials. It’s fun,
-            easy, and takes only a few minutes!{" "}
-          </p>
         </div>
         <div style={{ display: "flex" }}>
           <div className="col-md-4 process">
@@ -21,8 +17,8 @@ const Process = () => {
               </figure>
               <h4>SignUp With Us</h4>
               <p>
-                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
-                officia deserunt mollit anim id est laborum.{" "}
+                Create your account with us on any investment plan of your
+                choice and get set to earn.{" "}
               </p>
             </div>
           </div>
@@ -33,8 +29,8 @@ const Process = () => {
               </figure>
               <h4>Invest </h4>
               <p>
-                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
-                officia deserunt mollit anim id est laborum.{" "}
+                Lets help you grow your business and profit by investing on any
+                of our plans and earn big{" "}
               </p>
             </div>
           </div>
@@ -45,8 +41,7 @@ const Process = () => {
               </figure>
               <h4>And Earn</h4>
               <p>
-                Excepteur sint occaecat cupidatat non proident sunt in culpa qui
-                officia deserunt mollit anim id est laborum.{" "}
+                We mine your money to the top with our powerful hardware servers{" "}
               </p>
             </div>
           </div>

@@ -184,3 +184,43 @@
   margin-right: 8px;
   margin-bottom: 20px;
 }
+
+/*
+ * Header Section
+ */
+.navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 30px 50px 0;
+  z-index: 99;
+}
+
+/*
+ * login Section
+ */
+
+.login-page {
+  background-image: url("./img/hero-bg.png");
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-page {
+  background-image: url("./img/hero-bg.png");
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-page > .form-container {
+  width: "10em";
+}
+.login-page > .form-container {
+  width: "10em";
+}

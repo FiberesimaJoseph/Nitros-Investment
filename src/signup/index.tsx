@@ -1,10 +1,10 @@
 import React from "react";
-import LoginForm from "./LoginForm";
+import SignUp from "./SignUp";
 
 const index = () => {
   return (
-    <div className="login-page">
-      <LoginForm />
+    <div className="signup-page">
+      <SignUp />
     </div>
   );
 };

@@ -13,10 +13,10 @@ const Footer = () => {
         >
           <div className="col-md-6 col-lg-3 footer-widget">
             <img src="img/logo.png" className="mb-4" alt="" />
-            <p>
+            {/* <p>
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia dese mollit anim id est laborum.
-            </p>
+            </p> */}
             {/* <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
             <a href="http://colorlib.com">
               Copyright &copy;{date.getFullYear()} All rights reserved | This
@@ -53,11 +53,17 @@ const Footer = () => {
                   <a href="/">Privacy Policy </a>
                 </li>
                 <li>
-                  <a href="/">support@nitrosinvestment.com</a>
+                  <a
+                    href="mailto:info@nitrosinvestment.online"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    info@nitrosinvestment.online
+                  </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/">(+1) 456-7890</a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

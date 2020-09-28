@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
 import Hero from "./Hero";
 import About from "./About";
 import Features from "./Features";
@@ -9,6 +8,8 @@ import Team from "./Team";
 import Review from "./Review";
 import Footer from "./Footer";
 import { Modal, Button } from "semantic-ui-react";
+import Header from "../components/Header";
+
 const Homepage: React.FC = () => {
   const [open, setOpen] = useState<boolean>(false);
   React.useEffect(() => {
@@ -27,12 +28,19 @@ const Homepage: React.FC = () => {
         <Modal.Header>Notice!</Modal.Header>
         <Modal.Content>
           <Modal.Description>
-            PLEASE...NOTE THAT ALL DEPOSITS/PAYMENTS SHOULD BE MADE DIRECTLY TO
-            THE COMPANY ACCOUNT/BITCOIN WALLET ADDRESS,NO PAYMENTS/DEPOSITS
-            SHOULD BE MADE TO ANY ACCOUNT MANAGER. THE COMPANY WILL NOT BE HELD
-            RESPONSIBLE FOR ANY LOSS THAT COMES WITH MAKING PAYMENTS TO ANY
-            ACCOUNTS MANAGER... THANK YOU FOR YOUR UNDERSTANDING AND
-            COOPERATION. nitrosinvestment.com
+            Nitros Investment offers the best investment banking where your
+            investment is managed by our professional team. Due to security
+            reasons, please notify yourself to our customer care service{" "}
+            <a
+              href="mailto:info@nitrosinvestment.online"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              info@nitrosinvestment.online
+            </a>{" "}
+            or livechat with our officials before any investment is made to
+            avoid any form of fraudulent acts. Thank you for choosing us, your
+            investment is safe wiht us.
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>

@@ -6,38 +6,32 @@ const Features = () => {
   const features = [
     {
       name: "Starter",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "10% Refferal Bonus 150% Profit",
       icon: "ti-mobile",
     },
     {
       name: "Silver",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "20% Refferal Bonus 350% Profit",
       icon: "ti-shield",
     },
     {
       name: "Gold",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "150% Refferal Bonus 250% Profit",
       icon: "ti-wallet",
     },
     {
       name: "Platinum",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "250% Refferal Bonus 450% Profit",
       icon: "ti-headphone-alt",
     },
     {
       name: "Student",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "15% Refferal Bonus 170% Profit",
       icon: "ti-reload",
     },
     {
       name: "Piosonners",
-      text:
-        "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      text: "50% Refferal Bonus 200% Profit",
       icon: "ti-panel",
     },
   ];

@@ -8,42 +8,42 @@ const Team = () => {
   const members = [
     {
       name: "Tom Binegar",
-      specialty: "Business Development",
-      position: "Marketing Director",
+      specialty: "Business Consultant",
+      position: "Business consultant",
       shortBio:
-        "Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.",
+        "Tom Binegar is a business consultant with over 10 years of experience and a P.Hd in business and marketing. He has worked with several industries and firms in business growth and marketing strategies.",
       bg: "member/1.jpg",
     },
     {
-      name: "Jackson Nash",
-      specialty: "Business Development",
-      position: "Marketing Director",
+      name: "Mellisa Barth",
+      specialty: "Costumer care",
+      position: "Costumer care",
       shortBio:
-        "Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.",
+        "Mellisa Barth is a professional in  business communications with over 5 years of experience working with customers.",
       bg: "member/2.jpg",
     },
     {
-      name: "Tom Binegar",
-      specialty: "Business Development",
-      position: "Ceo Bitcoin",
+      name: "Scott Billy",
+      specialty: "Cyber security",
+      position: "Cyber security",
       shortBio:
-        "Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.",
+        "Scott Billy is a professional in the cyber security field with over 10 years of experience in the tech space.",
       bg: "member/3.jpg",
     },
     {
-      name: "Mellisa Barth",
+      name: "Jackson Nash",
       specialty: "Product Manager",
       position: "Product Manager",
       shortBio:
-        "Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.",
+        "Jackson Nash has been the strength of our team knowing what the market wants.",
       bg: "member/4.jpg",
     },
     {
       name: "Katy Abrams",
-      specialty: "Head of Design",
-      position: "Head of Design",
+      specialty: "Trade analyst",
+      position: "Trade analyst",
       shortBio:
-        "Jackson Nash is a full-time faculty member of the Marketing and Behavioural Science Division at the Sauder School of Business at UBC. He leads the Entrepreneurship Group, in the undergraduate and graduate programs, teaching actively in both of these.",
+        "Katy Abrams is an expert in understanding the flow of the trade market.",
       bg: "member/5.jpg",
     },
   ];

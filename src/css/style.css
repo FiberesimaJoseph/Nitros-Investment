@@ -312,19 +312,6 @@ ol {
 	Header section
 -----------------------*/
 
-.header-section {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  padding: 30px 50px 0;
-  z-index: 99;
-}
-
-.header-section .site-btn {
-  float: right;
-  margin-left: 60px;
-}
-
 .header-section .responsive-bar,
 .header-section .user {
   display: none;
