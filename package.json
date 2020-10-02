@@ -2,7 +2,6 @@
   "name": "cryptocurr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://FiberesimaJoseph.github.io/Nitros-Investment",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

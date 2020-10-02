@@ -224,3 +224,10 @@
 .login-page > .form-container {
   width: "10em";
 }
+
+.dashboard {
+  height: 100vh;
+  background-image: url("./img/hero-bg.png");
+  background-size: cover;
+  background-color: whitesmoke;
+}

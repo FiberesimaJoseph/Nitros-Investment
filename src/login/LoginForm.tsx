@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "semantic-ui-react";
+import { Redirect } from "react-router-dom";
 
 const LoginForm = () => {
+  const [submitted, setSubmitted] = useState<boolean>(false);
   return (
     <div className="form-container">
       <Form
         onSubmit={(e) => {
           e.preventDefault();
-          console.log("logged in");
+          setSubmitted(true);
         }}
       >
         <Form.Field>
@@ -20,6 +22,7 @@ const LoginForm = () => {
         </Form.Field>
         <Button type="submit">Submit</Button>
       </Form>
+      {submitted ? <Redirect to="/dashboard" /> : null}
     </div>
   );
 };

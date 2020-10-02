@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Icon } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const date = new Date();
@@ -18,10 +19,12 @@ const Footer = () => {
               officia dese mollit anim id est laborum.
             </p> */}
             {/* <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
-            <a href="http://colorlib.com">
-              Copyright &copy;{date.getFullYear()} All rights reserved | This
-              Website is built by Nitros Investment
-            </a>
+            <Link to="">
+              Copyright &copy; Nitros Investment 2015 - {date.getFullYear()} All
+              rights reserved
+            </Link>
+
+            <div>311 W Monroe st Chicago, IL 60606 USA</div>
             {/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> */}
           </div>
           <div className="col-md-6 col-lg-3 footer-widget pl-lg-5 pl-3">
@@ -61,9 +64,9 @@ const Footer = () => {
                     info@nitrosinvestment.online
                   </a>
                 </li>
-                {/* <li>
-                  <a href="/">(+1) 456-7890</a>
-                </li> */}
+                <li>
+                  <Link to="">+1 (346) 226-3799</Link>
+                </li>
               </ul>
             </div>
           </div>
