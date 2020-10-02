@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "semantic-ui-react";
+import { Redirect } from "react-router-dom";
 
 const SignUp = () => {
+  const [redirect, setRedirect] = useState<boolean>(false);
   return (
     <div className="form-container">
       <Form
         onSubmit={(e) => {
           e.preventDefault();
           console.log("sign up");
+          setRedirect(true);
         }}
       >
         <Form.Field>
@@ -32,7 +35,7 @@ const SignUp = () => {
         </Form.Field>
         <Form.Field>
           <label>Password</label>
-          <input placeholder="Password" />
+          <input placeholder="Password" type="password" />
         </Form.Field>
         <Form.Field>
           <label>Confirm Password</label>
@@ -40,6 +43,7 @@ const SignUp = () => {
         </Form.Field>
         <Button type="submit">Submit</Button>
       </Form>
+      {redirect ? <Redirect to="/dashboard" /> : null}
     </div>
   );
 };
