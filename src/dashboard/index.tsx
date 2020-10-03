@@ -20,18 +20,22 @@ const Index: React.FC = () => {
     {
       name: "Trade profit",
       description: "$0",
+      bg: "gray",
     },
     {
       name: "Referral bonus",
       description: "$0",
+      bg: "yellow",
     },
     {
       name: "Total deposits",
       description: "$0",
+      bg: "green",
     },
     {
       name: "Total withdraws",
       description: "$0",
+      bg: "blue",
     },
   ];
 
@@ -109,10 +113,16 @@ const Index: React.FC = () => {
         ) : null}
       </Container>
       <Segment>
-        <Card.Group style={{ display: "flex", justifyContent: "space-around" }}>
+        <Card.Group
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           {cards.map((c, i) => (
-            <Card>
-              <Card.Content key={i}>
+            <Card key={i} style={{ backgroundColor: `${c.bg}` }}>
+              <Card.Content>
                 <Card.Header>{c.name}</Card.Header>
                 <Card.Description>{c.description}</Card.Description>
               </Card.Content>
