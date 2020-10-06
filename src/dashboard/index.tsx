@@ -9,6 +9,7 @@ import {
   Button,
 } from "semantic-ui-react";
 import { Link } from "react-router-dom";
+import Footer from "../homepage/Footer";
 
 interface Message {
   header?: string;
@@ -130,6 +131,7 @@ const Index: React.FC = () => {
           ))}
         </Card.Group>
       </Segment>
+      <Footer />
     </div>
   );
 };

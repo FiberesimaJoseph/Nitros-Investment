@@ -5,19 +5,19 @@ const Review = () => {
   const testimonies = [
     {
       reviewText:
-        '"Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”',
+        '"A big thanks to Mellisa Barth  the customer care at nitros investment for  introducing me to this awesome platform where everything is genuine”',
       authorAvatar: "review/1.jpg",
       authorName: "Katy Abrams",
     },
     {
       reviewText:
-        '"Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”',
+        '"Am so happy i got in to a safe haands, thanks to nitros investment never believe bitcoin was true.”',
       authorAvatar: "review/2.jpg",
       authorName: "Jackson Nash",
     },
     {
       reviewText:
-        '"Bitcoin is exciting because it shows how cheap it can be. Bitcoin is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”',
+        '"Happy Happy Happy that my business has doubled is profit with the help of nitros investment, thanks to nitros investment and keep the good work”',
       authorAvatar: "review/3.jpg",
       authorName: "Aoron Ballace",
     },

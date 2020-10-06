@@ -7,16 +7,15 @@ const About = () => {
       <Container>
         <div className="row">
           <div className="col-lg-6 offset-lg-6 about-text">
-            <h2>What is Bitcoin</h2>
-            <h5>
-              Bitcoin is an innovative payment network and a new kind of money.
-            </h5>
+            <h2>About Us</h2>
             <p>
-              Bitcoin is one of the most important inventions in all of human
-              history. For the first time ever, anyone can send or receive any
-              amount of money with anyone else, anywhere on the planet,
-              conveniently and without restriction. It’s the dawn of a better,
-              more free world.
+              Nitros investment is a independent alternative investment company
+              that applies a systematic and quantitative approach to investment
+              management, with the aim of generating high-quality and
+              diversifyng alpha in other to enable ortfolio. the company
+              provides incomes opportunities through their specilizations in
+              crypto currency trading/mining of bitcoin and other assests
+              industry like binary options,forex,stocks and commodities.
             </p>
           </div>
         </div>
